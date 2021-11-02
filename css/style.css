@@ -9,8 +9,6 @@
 body{
 }
 header{
-    font-family: 'Halant', serif;
-    
     text-align: center;
     font-size: 4rem;
     position: sticky;
@@ -27,14 +25,14 @@ nav{
     display: inline-block;
 }
 nav form{
-    line-height: 59px;
+    line-height: 50px;
     display: inline-block;
     float: right;
 }
 .searchField{
     border: 2px solid gray;
     border-radius: 5px;
-    height: 30px;
+    height: 35px;
     width: 200px;
 }
 .searchField:active{
@@ -42,9 +40,8 @@ nav form{
 }
 .btn{
     background-color: black;
-    border: 2px solid white;
     color: white;
-    padding:10px 15px;
+    padding:5px 10px;
     border-radius: 10px;
 }
 .btn:hover{
@@ -54,7 +51,7 @@ nav form{
     opacity: 0.7;
 }
 .navbar{
-    line-height: 59px;
+    line-height: 50px;
     width: 50%;
     float: left;
 }
