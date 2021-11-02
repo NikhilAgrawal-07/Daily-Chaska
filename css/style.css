@@ -62,17 +62,15 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
   transition: 0.3s;
 }
+.show-btn,.hide-btn{
+    color: white;
+}
 a i {
   margin-right: 20px;
 }
 .sidebar ul li a:hover {
   border-left: 5px solid white;
   text-decoration: none;
-}
-i {
-  font-size: 30px;
-  color: white;
-  margin-left: 10px;
 }
 .navbar {
   line-height: 35px;
@@ -102,7 +100,6 @@ form {
   border: 0;
   border-radius: 5px;
   height: 33px;
-  margin-right: 10px;
 }
 
 .searchField {
