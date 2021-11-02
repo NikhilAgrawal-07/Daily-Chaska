@@ -1,37 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daily Chaska - A News Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/8e517d223f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <header>Daily Chaska</header>
-    <nav class="inline-block-display">
-        <ul class="navbar">
-            <li><a href="">Home</a></li>
-            <li><a href="">Tech</a></li>
-            <li><a href="">Sports</a></li>
-            <li><a href="">Life & Style</a></li>
-            <li><a href="">Entertainment</a></li>
+    <nav>
+      <input type="checkbox" name="" id="chk" />
+      <label for="chk" class="show-btn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <label for="chk" class="hide-btn">
+        <i class="fa fa-times"></i>
+      </label>
+      <div class="sidebar">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-home"></i><span>Home</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-fire"></i><span>Trending</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-virus"></i><span>Covid-19</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-film"></i><span>Bollywood</span></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fas fa-baseball-ball"></i><span>Cricket</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fas fa-brain"></i><span>Current Affairs</span></a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-id-card"></i><span>Contact us</span></a>
+          </li>
         </ul>
-        <form action="">
-            <input class="searchField " type="text" placeholder="Search..." name="searchbar" id="searchbar">
-            
-            <i class="fas fa-search btn"></i>
-        </form>
+      </div>
+      <ul class="navbar">
+        <li><a href="">Home</a></li>
+        <li><a href="">Technologies</a></li>
+        <li><a href="">Sports</a></li>
+        <li><a href="">Weather</a></li>
+        <li><a href="">Entertainment</a></li>
+      </ul>
+      <form action="">
+        <input
+          class="searchField"
+          type="text"
+          placeholder="Search..."
+          name="searchbar"
+          id="searchbar"
+        />
+        <i class="fas fa-search btn"></i>
+      </form>
     </nav>
     <script src="./JavaScript/index.js"></script>
-</body>
-
+  </body>
 </html>
