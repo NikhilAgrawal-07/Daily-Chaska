@@ -50,6 +50,7 @@ nav {
   background-color: black;
   position: absolute;
   top: 0px;
+  height: 100vh;
   left: -100%;
   transition: 0.8s;
 }
@@ -117,7 +118,7 @@ form {
 .btn {
   background-color: black;
   color: white;
-  padding: 5px 10px;
+  padding: 10px 10px;
   border-radius: 10px;
 }
 .btn:hover {
@@ -128,17 +129,19 @@ form {
 }
 .carousel {
  position: relative;
- padding: 10px;
+ padding:0 200px;
   /* overflow: hidden; */
 
 }
+
 .sports{
   border: 2px solid red;
   padding: 10px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .card{
   display: flex;
   
+
 }
