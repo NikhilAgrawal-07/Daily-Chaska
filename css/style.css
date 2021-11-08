@@ -13,7 +13,9 @@ header {
   font-family: "Akronim", cursive;
 }
 nav {
-  position: relative;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
   background-color: rgb(8, 5, 12);
   width: 100%;
   height: 50px;
@@ -61,35 +63,36 @@ nav {
   padding: 15px 5px;
   font-family: Arial, Helvetica, sans-serif;
   transition: 0.3s;
+  text-decoration: none;
 }
 .show-btn,.hide-btn{
     color: white;
+    left: 20px;
 }
 a i {
   margin-right: 20px;
 }
 .sidebar ul li a:hover {
   border-left: 5px solid white;
-  text-decoration: none;
+  color: goldenrod;
 }
 .navbar {
+  position: sticky;
   line-height: 35px;
   float: left;
   margin-left: 50px;
 }
 .navbar li {
   display: inline-block;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
 }
 .navbar li a {
   margin: 0 25px;
   color: white;
+  text-decoration: none;
   font-size: 1.2rem;
 }
 .navbar li a:hover {
   color: goldenrod;
-  text-decoration: none;
 }
 form {
   line-height: 50px;
@@ -122,4 +125,20 @@ form {
   background-color: white;
   cursor: pointer;
   opacity: 0.7;
+}
+.carousel {
+ position: relative;
+ padding: 10px;
+  /* overflow: hidden; */
+
+}
+.sports{
+  border: 2px solid red;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card{
+  display: flex;
+  
 }
