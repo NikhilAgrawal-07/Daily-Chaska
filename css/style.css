@@ -12,6 +12,10 @@ header {
   font-size: 90px;
   font-family: "Akronim", cursive;
 }
+.head{
+  color: white;
+  background-color: rgb(26, 23, 23);
+}
 nav {
   position: sticky;
   top: 0px;
