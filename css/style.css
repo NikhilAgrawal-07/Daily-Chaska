@@ -255,11 +255,6 @@ form {
   padding: 25px 0;
   background: #000000;
 }
-.logoBottom{
-  position: absolute;
-  bottom: 10px;
-  left: 1000px;
-}
 @media (max-width:750px) {
   .navbar{
     display: none;
