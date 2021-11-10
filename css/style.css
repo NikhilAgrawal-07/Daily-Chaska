@@ -260,3 +260,15 @@ form {
   bottom: 10px;
   left: 1000px;
 }
+@media (max-width:750px) {
+  .navbar{
+    display: none;
+  }
+  .sidebar{
+    width: 35%;
+  }
+  .carousel{
+    padding: 0%;
+  }
+  
+}
